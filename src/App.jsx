@@ -8,7 +8,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useState } from "react";
 import ticketsData from "../public/ticketsData.json";
-import HeaderSection from "./Components/Home/Home";
+
 
 function App() {
   const [allTickets] = useState(ticketsData);
