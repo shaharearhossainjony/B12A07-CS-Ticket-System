@@ -11,3 +11,16 @@ JSX stands for Javascript XML and XML means Xtended Markup Language. So JSX is a
 3. It first convert into plain JavaScript brfore running in the browser.
 
 ---
+
+## **Question 02. What is the difference between State and Props?**
+
+**Answer:**  
+**State:** State manage data inside a component and it can change over time.  
+**Props:** Props are passed from a parent component to a child and it is read only values.
+
+### **Main difference between state and props :**
+1. State can be change and props are immutable.
+2. State are managed by component and props are managed by parent.
+3. States used for dynamic data and props are used to pass data or functions.
+
+---
