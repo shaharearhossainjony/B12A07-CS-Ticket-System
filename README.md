@@ -52,3 +52,19 @@ State can be shared between components using :
 4. URL/Router State  
 
 ---
+
+## **Question 05. How is event handling done in React?**
+
+**Answer:**  
+Event handling in React uses camelCase event names and functions.
+
+**Example:**  
+```jsx
+<button onClick={handleClick}>Click Me</button>
+```
+
+Where,  
+1. React uses camelCase event names (onClick, onChange).  
+2. You pass a function, not a function call.  
+3. Uses React’s Synthetic Event System for better performance and compatibility.
+
