@@ -41,3 +41,14 @@ Where,
 3. React re-renders the component whenever the state changes.
 
 ---
+
+## **Question 04. How can you share state between components in React?**
+
+**Answer:**  
+State can be shared between components using :  
+1. Lifting State Up  
+2. Context API  
+3. State Management Libraries  
+4. URL/Router State  
+
+---
