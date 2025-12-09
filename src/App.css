@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.my-element {
+    /* The linear gradient from the prompt */
+    background-image:
+        url('./assets/vector1.png'),
+        url('./assets/vector2.png'),   
+        linear-gradient(125.07deg, #632EE3, #9F62F2);
+
+    /* Positions the images on the left and right, and the gradient fills the entire element */
+    background-position: left center, right center, center;
+
+    /* Prevents the images from repeating */
+    background-repeat: no-repeat;
+
+    /* Ensures the entire background is covered */
+    background-size: auto, auto, cover;
+}
+
+.my-element2 {
+    /* The linear gradient from the prompt */
+    background-image:
+        url('./assets/vector1.png'),
+        url('./assets/vector2.png'),   
+        linear-gradient(125.07deg, #54CF68, #00827A);
+
+    /* Positions the images on the left and right, and the gradient fills the entire element */
+    background-position: left center, right center, center;
+
+    /* Prevents the images from repeating */
+    background-repeat: no-repeat;
+
+    /* Ensures the entire background is covered */
+    background-size: auto, auto, cover;
+}
