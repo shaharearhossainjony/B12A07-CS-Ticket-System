@@ -24,3 +24,20 @@ JSX stands for Javascript XML and XML means Xtended Markup Language. So JSX is a
 3. States used for dynamic data and props are used to pass data or functions.
 
 ---
+
+## **Question 03. What is the useState hook, and how does it work?**
+
+**Answer:**  
+useState : useState is a React Hook that allows functional components to store and update state.
+
+**Example:**  
+```jsx
+const [count, setCount] = useState(0);
+```
+
+Where,  
+1. count stores the current state value.  
+2. setCount updates the state.  
+3. React re-renders the component whenever the state changes.
+
+---
